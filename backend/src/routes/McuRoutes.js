@@ -8,7 +8,7 @@ const McuController = require('../controller/McuController')
 router.get('/status-lights', McuController.getStateLights)
 
 //PATCH PARA DESLIGAR OU LIGAR LUZES
-//router.patch('/:id/lights/toggle-active', McuController.patchStateLights)
+router.patch('/:id/lights/toggle-active', McuController.patchStateLights)
 
 //CONEXÃO AO APP.JS
 module.exports = router
