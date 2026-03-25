@@ -22,7 +22,7 @@ A arquitetura final do projeto será dividida em três pilares principais. O que
 
 - [x] **Fase 1: Prova de Conceito (Hardware)** - Controle local de iluminação com Arduino.
 - [ ] **Fase 2: Expansão de Hardware** - Integração de Módulo RTC (DS3231) para precisão de tempo e transição para relés (controle de lâmpadas reais de 110V/220V).
-- [ ] **Fase 3: O Cérebro (Servidor/Backend)** - Criação de um servidor local (ex: Node.js, Python ou Raspberry Pi) para centralizar os comandos.
+- [x] **Fase 3: O Cérebro (Servidor/Backend)** - Criação de um servidor local (ex: Node.js, Python ou Raspberry Pi) para centralizar os comandos.
 - [ ] **Fase 4: Conectividade (IoT)** - Fazer o hardware se comunicar com o servidor (via Wi-Fi com ESP32/ESP8266 ou Serial).
 - [ ] **Fase 5: Interface (Frontend)** - Desenvolvimento de um painel web/mobile para controle do apartamento pelo celular.
 
