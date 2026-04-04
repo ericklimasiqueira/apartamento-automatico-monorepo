@@ -16,10 +16,18 @@ const McuController = {
             })
         }
     },
-
+    
     patchStateLights: async (req, res) => {
-        res.json({mensage: "CONTROLLER FUNCIONANDO PORRA!"})
-    },
+        try {
+            const { id } = req.body
+
+            const data = await McuService.patchStateLights(id)
+
+            return res.json(data)
+        } catch (error) {
+            return res.status(404).json({ erro: error.message })
+        }
+    }
 
 }
 
